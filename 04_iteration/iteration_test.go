@@ -35,5 +35,4 @@ func TestMyTrimFunc(t *testing.T) {
 	if trimmed != expected {
 		t.Errorf("expected %q but got %q", trimmed, expected)
 	}
-
 }

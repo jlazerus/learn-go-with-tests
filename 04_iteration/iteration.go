@@ -15,7 +15,7 @@ func Repeat(character string, repeatCount int) string {
 
 func MyTrimFunc(s string) string {
 	t := strings.TrimFunc(s, func(r rune) bool {
-		return unicode.IsLetter(r)
+		return unicode.IsPunct(r)
 	})
 	return t
 }
